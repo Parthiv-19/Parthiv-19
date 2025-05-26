@@ -57,8 +57,8 @@ const parthiv = {
 <div align="center">
 
 #### **Languages**
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -113,19 +113,72 @@ const parthiv = {
 
 ---
 
-### 📈 Contribution Snake
+### 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake.svg" alt="Snake animation" />
+  <img src="https://github-profile-trophy.vercel.app/?username=parthiv-19&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1"/>
 </div>
 
 ---
 
-### 🎵 Currently Vibing To
+### 🎵 Currently Listening To
 
 <div align="center">
-  <img src="https://spotify-recently-played-readme.vercel.app/api?user=YOUR_SPOTIFY_USER_ID&count=1&unique=true" alt="Spotify Now Playing"/>
+  
+[![Spotify](https://spotify-github-profile.vercel.app/api/spotify)](https://open.spotify.com/user/YOUR_SPOTIFY_USERNAME)
+
+<!-- Alternative method if you set up manual integration -->
+<!-- <img src="https://spotify-recently-played-readme.vercel.app/api?user=YOUR_SPOTIFY_USER_ID&count=1&unique=true" alt="Spotify Now Playing"/> -->
+
 </div>
+
+---
+
+### 📈 Contribution Snake
+
+<div align="center">
+  
+  <!-- Theme-adaptive snake that changes based on user's GitHub theme -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-light.svg">
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-auto.svg">
+  </picture>
+  
+  <!-- Alternative: Multiple themed snakes for variety -->
+  <details>
+    <summary>🎨 More Snake Themes (Click to expand)</summary>
+    <br>
+    
+    **🌈 Rainbow Theme:**
+    <br>
+    <img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-rainbow.svg" alt="Rainbow Snake"/>
+    
+    **🌊 Ocean Theme:**
+    <br>
+    <img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-ocean.svg" alt="Ocean Snake"/>
+    
+    **⚡ Neon Theme:**
+    <br>
+    <img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-neon.svg" alt="Neon Snake"/>
+    
+  </details>
+  
+</div>
+
+---
+
+### 💻 Weekly Development Breakdown
+
+<!--START_SECTION:waka-->
+```text
+JavaScript   8 hrs 12 mins   ███████████░░░░░░░░░░░░░░   45.2%
+HTML         4 hrs 30 mins   ████████░░░░░░░░░░░░░░░░░   24.8%
+CSS          3 hrs 15 mins   ████████░░░░░░░░░░░░░░░░░   17.9%
+Java         1 hr 25 mins    ████░░░░░░░░░░░░░░░░░░░░░   7.8%
+C++          45 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   4.2%
+```
+<!--END_SECTION:waka-->
 
 ---
 
