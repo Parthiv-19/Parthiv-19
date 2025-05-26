@@ -134,11 +134,59 @@ const parthiv = {
 
 ---
 
-### 📈 Contribution Snake
+### 🐍 Custom Contribution Snake Animation
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake.svg" alt="Snake animation" />
+  
+  <!-- Primary adaptive snake -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-light.svg">
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-neon.svg">
+  </picture>
+  
 </div>
+
+<details align="center">
+<summary>🎨 <strong>Explore More Epic Snake Themes</strong> (Click to expand)</summary>
+<br>
+
+<!-- Neon Glow Theme -->
+<h3>⚡ Neon Glow</h3>
+<img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-neon.svg" alt="Neon Snake Animation" width="100%"/>
+
+<!-- Rainbow Theme -->
+<h3>🌈 Rainbow Spectrum</h3>
+<img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-rainbow.svg" alt="Rainbow Snake Animation" width="100%"/>
+
+<!-- Matrix Theme -->
+<h3>💚 Matrix Code</h3>
+<img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-matrix.svg" alt="Matrix Snake Animation" width="100%"/>
+
+<!-- Sunset Theme -->
+<h3>🌅 Sunset Vibes</h3>
+<img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-sunset.svg" alt="Sunset Snake Animation" width="100%"/>
+
+<!-- Ocean Theme -->
+<h3>🌊 Ocean Waves</h3>
+<img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-ocean.svg" alt="Ocean Snake Animation" width="100%"/>
+
+<!-- Fire Theme -->
+<h3>🔥 Fire Blaze</h3>
+<img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-fire.svg" alt="Fire Snake Animation" width="100%"/>
+
+<!-- Cyber Theme -->
+<h3>🤖 Cyberpunk</h3>
+<img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-cyber.svg" alt="Cyber Snake Animation" width="100%"/>
+
+<!-- Purple Theme -->
+<h3>💜 Purple Galaxy</h3>
+<img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-purple.svg" alt="Purple Snake Animation" width="100%"/>
+
+<br>
+<p><em>Each snake represents your GitHub contribution activity with unique color schemes!</em></p>
+
+</details>
 
 ---
 
