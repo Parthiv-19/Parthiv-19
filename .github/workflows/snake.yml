@@ -14,14 +14,21 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - name: generate snake.svg
+      - name: generate snake.svg (github-dark)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: parthiv-19
-          outputs: dist/snake.svg?palette=github-dark
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake-light.svg?palette=github-light
+            dist/snake-auto.svg?palette=github-auto
+            dist/snake-rainbow.svg?palette=rainbow-bright
+            dist/snake-ocean.svg?palette=ocean-blue
+            dist/snake-neon.svg?palette=electric-cyan
 
       - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
