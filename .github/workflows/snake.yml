@@ -1,9 +1,9 @@
-name: Generate Snake
+name: Generate Custom Snake Animation
 
 on:
   schedule:
-    # Runs every 12 hours
-    - cron: "0 */12 * * *"
+    # Runs every 6 hours for more frequent updates
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -14,21 +14,25 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
-      - name: generate snake.svg (github-dark)
+      - name: generate multiple themed snakes
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: parthiv-19
           outputs: |
             dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-            dist/snake-light.svg?palette=github-light
-            dist/snake-auto.svg?palette=github-auto
-            dist/snake-rainbow.svg?palette=rainbow-bright
-            dist/snake-ocean.svg?palette=ocean-blue
-            dist/snake-neon.svg?palette=electric-cyan
+            dist/snake-dark.svg?palette=github-dark&background_color=0d1117&grid_color=21262d&empty_color=161b22&color_dots=39d353,26a641,006d32,0d4429,01311f
+            dist/snake-light.svg?palette=github-light&background_color=ffffff&grid_color=e1e4e8&empty_color=ebedf0&color_dots=40c463,30a14e,216e39,0e4429,002e1a
+            dist/snake-neon.svg?color_snake=ff6b6b,4ecdc4,45b7d1,96ceb4,feca57&color_dots=ff9ff3,54a0ff,5f27cd,00d2d3,ff9f43,c8d6e5,feca57,48dbfb,ff6b6b,ee5a24&background_color=2c2c54&grid_color=40407a
+            dist/snake-rainbow.svg?color_snake=ff0000,ff8000,ffff00,80ff00,00ff00,00ff80,00ffff,0080ff,0000ff,8000ff,ff00ff,ff0080&color_dots=ff6b6b,feca57,48dbfb,ff9ff3,54a0ff,5f27cd,c44569,f8b500,6c5ce7,a29bfe,fd79a8,e17055&background_color=1a1a2e&grid_color=16213e
+            dist/snake-matrix.svg?color_snake=39ff14,32cd32,00ff00,adff2f,7fff00&color_dots=39ff14,32cd32,00ff00,adff2f,7fff00,90ee90,98fb98,00fa9a,00ff7f,20b2aa&background_color=000000&grid_color=003300
+            dist/snake-sunset.svg?color_snake=ff512f,dd2476,ff6b6b,ee5a24,fd79a8&color_dots=ff7675,fd79a8,fdcb6e,e17055,ff7675,fab1a0,ff6b6b,fd63a3,6c5ce7,a29bfe&background_color=2d3436&grid_color=636e72
+            dist/snake-ocean.svg?color_snake=0984e3,74b9ff,00b894,00cec9,55a3ff&color_dots=74b9ff,0984e3,00b894,00cec9,55a3ff,81ecec,74b9ff,0984e3,6c5ce7,a29bfe&background_color=2d3436&grid_color=636e72
+            dist/snake-fire.svg?color_snake=d63031,e17055,fd79a8,fdcb6e,e84393&color_dots=d63031,e17055,fd79a8,fdcb6e,e84393,ff7675,fab1a0,fd79a8,ff6b6b,fd63a3&background_color=2d3436&grid_color=636e72
+            dist/snake-cyber.svg?color_snake=00f5ff,1e90ff,9400d3,ff1493,00ff00&color_dots=00f5ff,1e90ff,9400d3,ff1493,00ff00,ff69b4,00ffff,7fff00,ff4500,dc143c&background_color=0a0a0a&grid_color=1a1a1a
+            dist/snake-purple.svg?color_snake=6c5ce7,a29bfe,fd79a8,fdcb6e,55a3ff&color_dots=6c5ce7,a29bfe,fd79a8,fdcb6e,55a3ff,e84393,74b9ff,fd79a8,ff7675,fab1a0&background_color=2d3436&grid_color=636e72
 
       - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
