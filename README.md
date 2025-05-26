@@ -119,52 +119,6 @@ const parthiv = {
   <img src="https://github-profile-trophy.vercel.app/?username=parthiv-19&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1"/>
 </div>
 
----
-
-### 🎵 Currently Listening To
-
-<div align="center">
-  
-[![Spotify](https://spotify-github-profile.vercel.app/api/spotify)](https://open.spotify.com/user/YOUR_SPOTIFY_USERNAME)
-
-<!-- Alternative method if you set up manual integration -->
-<!-- <img src="https://spotify-recently-played-readme.vercel.app/api?user=YOUR_SPOTIFY_USER_ID&count=1&unique=true" alt="Spotify Now Playing"/> -->
-
-</div>
-
----
-
-### 🐍 Contribution Snake Animation (Light & Dark Mode Friendly)
-
-<div align="center">
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-light.svg" />
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-neon.svg" style="max-width: 100%;" />
-  </picture>
-
-</div>
-
-<details>
-<summary><strong>🎨 Explore More Snake Themes</strong></summary>
-
-<div align="center">
-
-| Theme            | Preview |
-|------------------|---------|
-| 🌈 Rainbow       | ![snake-rainbow](https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-rainbow.svg) |
-| ⚡ Neon Glow     | ![snake-neon](https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-neon.svg) |
-| 💚 Matrix        | ![snake-matrix](https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-matrix.svg) |
-| 🌅 Sunset Vibes  | ![snake-sunset](https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-sunset.svg) |
-| 🌊 Ocean Waves   | ![snake-ocean](https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-ocean.svg) |
-| 🔥 Fire Blaze    | ![snake-fire](https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-fire.svg) |
-| 🤖 Cyberpunk     | ![snake-cyber](https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-cyber.svg) |
-| 💜 Purple Galaxy | ![snake-purple](https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-purple.svg) |
-
-</div>
-
-</details>
 
 <details align="center">
 <summary>🎨 <strong>Explore More Epic Snake Themes</strong> (Click to expand)</summary>
