@@ -137,33 +137,7 @@ const parthiv = {
 ### 📈 Contribution Snake
 
 <div align="center">
-  
-  <!-- Theme-adaptive snake that changes based on user's GitHub theme -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-light.svg">
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-auto.svg">
-  </picture>
-  
-  <!-- Alternative: Multiple themed snakes for variety -->
-  <details>
-    <summary>🎨 More Snake Themes (Click to expand)</summary>
-    <br>
-    
-    **🌈 Rainbow Theme:**
-    <br>
-    <img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-rainbow.svg" alt="Rainbow Snake"/>
-    
-    **🌊 Ocean Theme:**
-    <br>
-    <img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-ocean.svg" alt="Ocean Snake"/>
-    
-    **⚡ Neon Theme:**
-    <br>
-    <img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake-neon.svg" alt="Neon Snake"/>
-    
-  </details>
-  
+  <img src="https://raw.githubusercontent.com/parthiv-19/parthiv-19/output/snake.svg" alt="Snake animation" />
 </div>
 
 ---
